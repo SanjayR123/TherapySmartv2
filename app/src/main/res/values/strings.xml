@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">TherapySmart</string>
+    <string name="therapysmart">TherapySmart</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="personal_details">Personal Details</string>
+    <string name="full_name">Full Name</string>
+    <string name="next">next</string>
+    <string name="todo">TODO</string>
+
+    <string name="open">Open</string>
+
+    <string name="close">Close</string>
+
+    <string name="pills">Pill(s)</string>
+    <string name="pessary">Pessar(ies)</string>
+
+    <string name="piece">Piece(s)</string>
+    <string name="patches">Patch(es)</string>
+    <string name="puffs">Puff(s)</string>
+    <string name="sachets">Sachet(s)</string>
+    <string name="sprays">Spray(s)</string>
+    <string name="tablespoons">Tablespoon(s)</string>
+    <string name="teaspoons">Teaspoon(s)</string>
+    <string name="dose">Dose</string>
+    <string name="medication_name">Medication Name</string>
+    <string name="units">Units</string>
+    <string name="add_your_first_medication">Add your first medication</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="google_map_key">AIzaSyAOZBO38tN0PXkz8P6kjVSH6CJ-7opFtk0</string>
+    <string name="find">Find</string>
+    <string-array name="genders">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Others</item>
+        <item>Rather Not Say</item>
+
+    </string-array>
+    <string-array name="units">
+        <item>pills</item>
+        <item>pessary</item>
+        <item>piece</item>
+        <item>patches</item>
+        <item>puffs</item>
+        <item>sachets</item>
+        <item>sprays</item>
+        <item>tablespoons</item>
+        <item>teaspoons</item>
+
+    </string-array>
+</resources>

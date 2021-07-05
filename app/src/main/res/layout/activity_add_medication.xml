@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Layout for the editor -->
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/background_white">
+
+    <!-- Overview category -->
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/add_your_first_medication"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:layout_marginBottom="10dp"
+        />
+
+    <EditText
+        android:id="@+id/medication_name"
+        style="@style/EditorFieldStyle"
+        android:autofillHints=""
+        android:layout_width="match_parent"
+        android:layout_marginBottom="20dp"
+        android:hint="@string/medication_name"
+        android:inputType="textCapWords" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/units"
+        android:textSize="15sp"
+        />
+
+    <Spinner
+        android:id="@+id/units_spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dose"
+        android:textSize="15sp"
+        />
+
+    <NumberPicker
+        android:id="@+id/dose_picker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        />
+
+
+    <Button
+        android:id="@+id/next2_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/next"
+        tools:ignore="RtlHardcoded,VectorDrawableCompat"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"/>
+
+
+
+</LinearLayout>
