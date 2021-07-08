@@ -26,7 +26,7 @@
     <string name="units">Units</string>
     <string name="add_your_first_medication">Add your first medication</string>
     <string name="title_activity_maps">Map</string>
-    <string name="google_map_key">AIzaSyAOZBO38tN0PXkz8P6kjVSH6CJ-7opFtk0</string>
+    <string name="google_map_key">GOOGLE KEY</string>
     <string name="find">Find</string>
     <string-array name="genders">
         <item>Male</item>
