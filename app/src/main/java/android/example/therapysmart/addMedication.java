@@ -59,7 +59,7 @@ public class addMedication extends AppCompatActivity implements View.OnTouchList
         numberPicker1.setValue(1);
         numberPicker1.setMaxValue(1000);
 
-       /* ArrayAdapter<String> myAdapter = new ArrayAdapter<>(addMedication.this,
+       /* Update:!!! ArrayAdapter<String> myAdapter = new ArrayAdapter<>(addMedication.this,
                 android.R.layout.simple_list_item_1, getResources().getStringArray(R.array.units));
         myAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         mMedUnitsSpinner.setAdapter(myAdapter);
